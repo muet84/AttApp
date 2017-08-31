@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/recorded_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recorded Id"
+        android:textSize="20dp"
+        android:layout_below="@id/type"
+
+
+        />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textSize="20dp"
+        android:layout_below="@id/recorded_id"
+        android:visibility="gone"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="20dp"
+        android:layout_below="@id/number"
+
+        />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="20dp"
+        android:layout_below="@id/status"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Delete"
+        android:background="@color/colorAccent"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

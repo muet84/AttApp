@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:background="#FFF"
+     >
+
+    <ImageView
+        android:id="@+id/warning"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hira_logo"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/dialogtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        android:textSize="22sp"
+        android:textColor="#424242"
+        android:layout_below="@id/warning"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+      />
+
+	<!--
+    <ImageView
+        android:id="@+id/reload"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/refresh_icon"
+       	android:layout_alignParentRight="true"
+		 />
+    - -->
+
+	<TextView
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/btn_reload"
+        android:layout_alignBottom="@+id/btn_reload"
+        android:layout_centerHorizontal="true"
+        android:background="#FFF"
+        android:text=" "
+        android:textSize="30dp" />
+
+	<EditText
+		android:id="@+id/mark_attendance_edittext"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:textSize="22sp"
+		android:textColor="#424242"
+		android:layout_marginTop="21dp"
+        android:layout_below="@+id/dialogtitle"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+        android:hint="Enter Student Id"
+        android:inputType="number"
+        />
+
+
+	<Button
+         android:id="@+id/btn_ok"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Cancel"
+		android:background="#FFF"
+         android:textColor="#424242"
+         android:textSize="22sp"
+         android:paddingLeft="20dp"
+        android:layout_below="@+id/mark_attendance_edittext"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true" />
+
+	<Button
+	    android:id="@+id/btn_reload"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Done"
+
+		android:textStyle="bold"
+		android:background="#FFF"
+	    android:textColor="@color/colorPrimary"
+	    android:textSize="22sp"
+		android:paddingRight="50dp"
+
+
+		android:layout_below="@+id/mark_attendance_edittext"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

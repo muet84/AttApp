@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:key="setting_pref"
+
+    android:title="Setting Preferences">
+
+    <CheckBoxPreference
+
+        android:key="synchronized_check"
+
+        android:title="Synchronized"
+
+        android:summary="enable or disable synchronization"
+
+        android:defaultValue="false"/>
+
+    <!--<CheckBoxPreference-->
+
+        <!--android:key="pref_opt2"-->
+
+        <!--android:title="Opt 2"-->
+
+        <!--android:summary="option 2" />-->
+
+    <!--<CheckBoxPreference-->
+
+        <!--android:key="pref_opt3"-->
+
+        <!--android:title="Opt 3"-->
+
+        <!--android:summary="option 3" />-->
+
+    <!--<CheckBoxPreference-->
+
+        <!--android:key="pref_opt4"-->
+
+        <!--android:title="Opt 4"-->
+
+        <!--android:summary="option 4" />-->
+
+    <EditTextPreference
+
+        android:key="pref_sms"
+
+        android:title="Default Sms Quantity"
+
+        android:summary="Sms Quantity per Hour : 200"
+
+        android:defaultValue="200"
+
+        />
+
+
+</PreferenceScreen>

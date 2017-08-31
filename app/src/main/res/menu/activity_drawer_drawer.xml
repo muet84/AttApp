@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_list"
+            android:title="Scan Log List" />
+
+        <item
+            android:id="@+id/mark_attendance"
+            android:title="Mark Attendance" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:title="Sync QR Data" />
+
+        <item
+            android:id="@+id/nav_login"
+            android:title="Registration" />
+        <item
+            android:id="@+id/sms"
+            android:title="Messages" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/device_details"
+            android:title="Device Info" />
+
+
+    </group>
+
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+           <!---->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
